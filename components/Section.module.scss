@@ -39,21 +39,6 @@
             height: 60px;
         }
     }
-}
-
-.BlackSection {
-    @extend .Section;
-    color: white;
-
-    &:after {
-        background-image: linear-gradient(to right top, white 0%, white 50%, transparent 50%);
-    }
-
-    &:before {
-        background-image: linear-gradient(to left top, white 0%, white 50%, transparent 50%);
-    }
-
-    background-color: #161618;
 
     h1.title {
         font-weight: 600;
@@ -142,6 +127,21 @@
         font-size: 14px;
         line-height: 17px;
     }
+}
+
+.BlackSection {
+    @extend .Section;
+    color: white;
+
+    &:after {
+        background-image: linear-gradient(to right top, white 0%, white 50%, transparent 50%);
+    }
+
+    &:before {
+        background-image: linear-gradient(to left top, white 0%, white 50%, transparent 50%);
+    }
+
+    background-color: #161618;
 }
 
 .WhiteSection {
