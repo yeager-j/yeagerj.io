@@ -1,11 +1,14 @@
 .Section {
     padding: 200px 100px 380px 100px;
     position: relative;
-    max-width: 1500px;
-    margin: 0 auto;
 
-    & > p {
-        max-width: 500px;
+    .Content {
+        max-width: 1200px;
+        margin: 0 auto;
+
+        & > p {
+            max-width: 500px;
+        }
     }
 
     &:after {

@@ -18,7 +18,8 @@ const Section = (props: SectionProps & React.HTMLProps<HTMLDivElement>) => {
 
     return (
         <div className={sectionStyles} {...rest}>
-            {props.children}
+            {bottom && props.children}
+            {!bottom && <div className={styles.Content}>{props.children}</div>}
         </div>
     );
 };

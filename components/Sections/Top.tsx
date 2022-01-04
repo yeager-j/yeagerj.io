@@ -13,7 +13,7 @@ const Top = () => {
         <Section color="black">
             <div className={styles.Top}>
                 <div className={styles.Content}>
-                    <Image src={d20} />
+                    <img src={d20.src} />
                     <h1>Hi, I’m Jackson</h1>
                     <h6>You just rolled a Natural 20 on your Investigation check.</h6>
 
