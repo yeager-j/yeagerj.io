@@ -22,8 +22,10 @@
             position: relative;
 
             ul {
-                list-style-type: unset;
-                list-style-position: inside;
+                li {
+                    margin: 0;
+                    padding: 0;
+                }
             }
 
             & > div {

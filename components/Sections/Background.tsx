@@ -41,20 +41,13 @@ const Background = () => {
                     </p>
                     <br />
                     <p>As a software engineer at Apago, I:</p>
-                    <ul>
-                        <li>
-                            <p>Worked with the customer and my boss to plan and design the end product.</p>
-                        </li>
-                        <li>
-                            <p>Managed my own time and process.</p>
-                        </li>
-                        <li>
-                            <p>
-                                Implemented the product using my choice of technology (I have worked with Angular,
-                                React, and Vue)
-                            </p>
-                        </li>
-                    </ul>
+
+                    <p>• Worked with the customer and my boss to plan and design the end product.</p>
+                    <p>• Managed my own time and process.</p>
+                    <p>
+                        • Implemented the product using my choice of technology (I have worked with Angular, React, and
+                        Vue)
+                    </p>
                 </>
             )
         },
@@ -66,23 +59,14 @@ const Background = () => {
                     <p>Aleo is a startup creating Zero-Knowledge Applications using Blockchain technologies.</p>
                     <br />
                     <p>As a software engineer at Aleo, I:</p>
-                    <ul>
-                        <li>
-                            <p>
-                                Work closely with the Design team to implement the frontend using React.js and/or
-                                Next.js.
-                            </p>
-                        </li>
-                        <li>
-                            <p>Was responsible for creating and maintaining our component library.</p>
-                        </li>
-                        <li>
-                            <p>
-                                Successfully launched the Setup Ceremony for the Browser, which took advantage of
-                                WebAssembly.
-                            </p>
-                        </li>
-                    </ul>
+
+                    <p>• Work closely with the Design team to implement the frontend using React.js and/or Next.js.</p>
+
+                    <p>• Was responsible for creating and maintaining our component library.</p>
+
+                    <p>
+                        • Successfully launched the Setup Ceremony for the Browser, which took advantage of WebAssembly.
+                    </p>
                 </>
             )
         }
