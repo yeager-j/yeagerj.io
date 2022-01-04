@@ -1,0 +1,10 @@
+.AbilityScores {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-top: 40px;
+
+    @media (max-width: 1000px) {
+
+    }
+}

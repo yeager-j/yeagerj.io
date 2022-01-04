@@ -1,0 +1,72 @@
+.Feat {
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    min-height: 260px;
+    display: flex;
+
+    @media (max-width: 1025px) {
+        flex-direction: column;
+    }
+
+    .PreviewWrapper {
+        min-width: 350px;
+        border-radius: 10px 0 0 10px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50%;
+        background-origin: content-box;
+
+        @media (max-width: 1025px) {
+            min-height: 300px;
+            min-width: unset;
+            border-radius: 10px 10px 0 0;
+        }
+
+        @media (max-width: 500px) {
+            min-height: 200px;
+        }
+    }
+
+    .Content {
+        padding: 40px 20px 40px 40px;
+
+        @media (max-width: 1025px) {
+            padding: 30px 30px 15px 30px;
+        }
+
+        .Title {
+            display: flex;
+            gap: 10px;
+            align-items: flex-end;
+            margin-bottom: 10px;
+
+            h6 {
+                margin-bottom: 0;
+            }
+
+            p {
+                margin-bottom: 4px;
+
+                @media (max-width: 1025px) {
+                    margin-bottom: 1px;
+                }
+            }
+        }
+    }
+
+    .Links {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 40px 40px 40px 20px;
+
+        @media (max-width: 1025px) {
+            padding: 15px 30px 30px 30px;
+        }
+
+        @media (max-width: 1025px) {
+            flex-direction: row;
+        }
+    }
+}

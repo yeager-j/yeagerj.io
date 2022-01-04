@@ -1,0 +1,56 @@
+.AbilityScore {
+    position: relative;
+    filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.25));
+
+    .ScoreBox {
+        width: 100px;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 3px solid #161618;
+        box-sizing: border-box;
+        border-radius: 10px;
+        background-color: white;
+        padding: 8px;
+
+        .Label {
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 17px;
+            text-align: center;
+            color: #161618;
+        }
+
+        .Score {
+            font-weight: 600;
+            font-size: 40px;
+            line-height: 48px;
+            color: #161618;
+        }
+    }
+
+    .YearBox {
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+        border: 3px solid #161618;
+        box-sizing: border-box;
+        border-radius: 10px;
+
+        position: absolute;
+        bottom: -20px;
+        left: 50%;
+        transform: translateX(-50%);
+
+        .Label {
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 24px;
+            color: #161618;
+        }
+    }
+}
