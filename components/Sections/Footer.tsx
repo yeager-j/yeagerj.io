@@ -19,7 +19,7 @@ const Footer = () => {
                     LinkedIn
                 </a>
 
-                <a href="" target="_blank" rel="noreferrer">
+                <a href="/Resume.pdf" target="_blank" rel="noreferrer">
                     Resume
                 </a>
             </div>
