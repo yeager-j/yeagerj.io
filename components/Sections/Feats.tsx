@@ -90,26 +90,30 @@ const Feats = () => {
                     github="https://github.com/vallurx"
                 />
 
-                <Feat
-                    previewSrc={vallurx}
-                    contain
-                    dark
-                    title="DiceForge"
-                    date="December 2021"
-                    description={
-                        <>
-                            <p>
-                                DiceForge will be an
-                            </p>
-                            <br />
-                            <p>
-                                Unfortunately we were too late to the market, but I’m proud of what we built in such a
-                                short period of time (2 weeks!)
-                            </p>
-                        </>
-                    }
-                    github="https://github.com/vallurx"
-                />
+                {/*<Feat*/}
+                {/*    previewSrc={vallurx}*/}
+                {/*    contain*/}
+                {/*    dark*/}
+                {/*    title="DiceForge"*/}
+                {/*    date="December 2021"*/}
+                {/*    description={*/}
+                {/*        <>*/}
+                {/*            <p>*/}
+                {/*                VallurX was started by a friend of mine who wanted to improve the vaccine distribution*/}
+                {/*                system in Ohio. VallurX has two components to it. There is a Patient Portal where*/}
+                {/*                regular Ohioans can schedule appointments and input their health information. We also*/}
+                {/*                have a Nurse Portal, where healthcare workers can view the schedule, check patient*/}
+                {/*                information, and manage vaccine data such as doses and manufacturer.*/}
+                {/*            </p>*/}
+                {/*            <br />*/}
+                {/*            <p>*/}
+                {/*                Unfortunately we were too late to the market, but I’m proud of what we built in such a*/}
+                {/*                short period of time (2 weeks!)*/}
+                {/*            </p>*/}
+                {/*        </>*/}
+                {/*    }*/}
+                {/*    github="https://github.com/vallurx"*/}
+                {/*/>*/}
             </div>
         </Section>
     );
