@@ -35,7 +35,7 @@ const ClassFeatures = () => {
                     <h6>The Lure of Knowledge</h6>
                     <p>
                         Programming isn’t simply a career choice for me. It is a passion and a hobby. I always have a
-                        personal projects in the works.
+                        personal project in the works.
                     </p>
                     <br />
                     <p>I’m always exploring bleeding-edge technologies in my own time.</p>

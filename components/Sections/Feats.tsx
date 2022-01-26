@@ -89,6 +89,27 @@ const Feats = () => {
                     }
                     github="https://github.com/vallurx"
                 />
+
+                <Feat
+                    previewSrc={vallurx}
+                    contain
+                    dark
+                    title="DiceForge"
+                    date="December 2021"
+                    description={
+                        <>
+                            <p>
+                                DiceForge will be an
+                            </p>
+                            <br />
+                            <p>
+                                Unfortunately we were too late to the market, but I’m proud of what we built in such a
+                                short period of time (2 weeks!)
+                            </p>
+                        </>
+                    }
+                    github="https://github.com/vallurx"
+                />
             </div>
         </Section>
     );
